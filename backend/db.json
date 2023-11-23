@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": "20c0c8f8-b9c6-4c00-8fa0-f2fa4335c2e4",
+      "username": "Jermaine.Halvorson",
+      "email": "Keira_Beahan67@gmail.com",
+      "avatar": "https://avatars.githubusercontent.com/u/16850932",
+      "password": "DPqrG909M78DONO",
+      "birthdate": "1970-04-24T11:32:40.813Z",
+      "registeredAt": "2022-12-01T12:37:07.472Z"
+    },
+    {
+      "id": "6273cfca-0fd9-4dbf-b6d6-abbcc3a5bccb",
+      "username": "Jazmin.Stehr33",
+      "email": "Maryjane_Carroll95@gmail.com",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1073.jpg",
+      "password": "FxRpZq0BlHDSfVc",
+      "birthdate": "1998-02-09T00:21:02.286Z",
+      "registeredAt": "2023-01-30T08:36:28.762Z"
+    }
+  ]
+}
