@@ -1,15 +1,29 @@
+import { useState } from "react";
+import data from "../../src/data";
+import CardCalendrier from "../CardCalendrier/CardCalendrier";
 import "./calendrier.css";
+
 function Calendrier() {
+  const [dataCadeau, setDataCadeau] = useState(0);
+
+  function cadeau(event){
+    setDataCadeau(event.target.value);
+  }
+
+  function fermer(){
+    setDataCadeau(0);
+  }
+
   return (
     <div className="calender-all-container">
       <div className="calender-container">
         <div className="first-row">
-          <div className="case">
-            <p className="numbers-calendrier">1</p>
-          </div>
-          <div className="case">
-            <p className="numbers-calendrier">2</p>
-          </div>
+          <button type="button" className="case" value="1" onClick={cadeau} >
+            1
+          </button>
+          <button type="button" className="case" value="2" onClick={cadeau}>
+            2
+          </button>
           <div className="case">
             <p className="numbers-calendrier">3</p>
           </div>
@@ -60,7 +74,7 @@ function Calendrier() {
           </div>
           <div className="case">
             <p className="numbers-calendrier">17</p>
-          </div>
+          </div> 
           <div className="case">
             <p className="numbers-calendrier">18</p>
           </div>
@@ -89,7 +103,17 @@ function Calendrier() {
           </div>
         </div>
       </div>
-    </div>
+
+        <div>
+          {data.filter((cadeau) => cadeau.id === +dataCadeau)
+          .map((cadeau) => ( 
+            <CardCalendrier key={cadeau.id} title={cadeau.title} urlImg={cadeau.urlImg} fermer={fermer}/>
+            )
+            )
+          }
+        </div>
+      </div>
+  
   );
 }
 
