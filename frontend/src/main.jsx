@@ -7,7 +7,6 @@ import Calendrier from "../pages/Calendrier.jsx";
 import Contact from "../pages/Contact.jsx";
 import Surprise from "../pages/Surprise.jsx";
 
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,7 +24,7 @@ const router = createBrowserRouter([
   },
   {
     path: "*",
-    element: <Surprise/>,
+    element: <Surprise />,
   },
 ]);
 
