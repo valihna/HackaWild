@@ -1,4 +1,4 @@
-* {
+.surprise {
   background-image: url(frontend/src/assets/imageSurprise.jpg);
   background-size: 100%;
   background-attachment: fixed;
@@ -11,6 +11,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  padding: 0;
   height: 100vh;
   width: 100%;
 }
