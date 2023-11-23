@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
 import "./index.css";
-import Home from "../pages/Home.jsx";
-import About from "../pages/About.jsx";
-
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Calendrier from "../pages/Calendrier.jsx";
+import Contact from "../pages/Contact.jsx";
+import Surprise from "../pages/Surprise.jsx";
 
 const router = createBrowserRouter([
   {
@@ -15,13 +14,17 @@ const router = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <Home />,
+        element: <Calendrier />,
       },
       {
-        path: "/about",
-        element: <About />,
+        path: "/contact",
+        element: <Contact />,
       },
     ],
+  },
+  {
+    path: "*",
+    element: <Surprise />,
   },
 ]);
 
