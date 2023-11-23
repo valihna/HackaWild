@@ -1,7 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
 import { useState } from "react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import InputForm from "./InputForm";
 import "./contactForm.css";
 
 function FormulaireContact() {
@@ -19,7 +19,7 @@ function FormulaireContact() {
 
   const toastQuestion = () => {
     if (question === "oui") {
-      toast.success("C'est très bien, tu as été sage !", {
+      toast.success("Tu as été sage, tu seras gâté pour Noël !", {
         position: toast.POSITION.TOP_RIGHT,
       });
     } else {
@@ -46,18 +46,20 @@ function FormulaireContact() {
     <div className="contactCard">
       <h1>Messagerie du Père Noël</h1>
       <form onSubmit={handleSubmit} className="contactForm">
-        <div>
-          <InputForm
-            label="Comment t'appelles-tu ?"
-            name="name"
-            type="text"
-            value={formValue.lastname}
-            onChange={handleChange}
-          />
-        </div>
-        <div>
+        <div className="firstQuestion">
           <label>
-            As-tu été sage ?
+            Comment t'appelles-tu ? <br />
+            <input
+              type="text"
+              name="name"
+              value={formValue.lastname}
+              onChange={handleChange}
+            />
+          </label>
+        </div>
+        <div className="secondQuestion">
+          <label>
+            As-tu été sage ? <br />
             <input
               type="radio"
               name="question"
@@ -80,7 +82,9 @@ function FormulaireContact() {
         </div>
         <div className="messageForm">
           <label>
-            <span>Quels cadeaux aimerais-tu pour Noël</span>
+            <span>
+              Quels cadeaux aimerais-tu pour Noël ?<br />
+            </span>
             <textarea
               className="textArea"
               name="message"
@@ -92,7 +96,7 @@ function FormulaireContact() {
             />
           </label>
           <div className="submit">
-            <input type="submit" className="submitButton" value="Submit" />
+            <input type="submit" className="submitButton" value="Envoyer" />
           </div>
         </div>
       </form>
