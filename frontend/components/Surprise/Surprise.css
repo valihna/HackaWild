@@ -1,5 +1,5 @@
 .surprise {
-  background-image: url(frontend/src/assets/imageSurprise.jpg);
+  background-image: url(public/imageSurprise.jpg);
   background-size: 100%;
   background-attachment: fixed;
   margin: 0;
@@ -17,5 +17,5 @@
 }
 
 .imgSurprise {
-  width: 60%;
+  width: 500px;
 }
