@@ -14,12 +14,11 @@ const router = createBrowserRouter([
     path: "/",
     element: <App />,
     children: [
-  },
       {
         path: "/TicTacToh",
         element: <TicTacToh />,
       },
-       {
+      {
         path: "/",
         element: <Calendrier />,
       },
@@ -27,11 +26,11 @@ const router = createBrowserRouter([
         path: "/contact",
         element: <Contact />,
       },
+      {
+        path: "*",
+        element: <Surprise />,
+      },
     ],
-  },
-  {
-    path: "*",
-    element: <Surprise />,
   },
 ]);
 
