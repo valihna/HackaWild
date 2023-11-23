@@ -5,9 +5,9 @@ function SurpriseCom() {
   return (
     <div className="surprise">
       <div className="containerSurprise">
-        <img src="frontend/src/assets/IMAGE404.png" alt="error" />
+        <img src="public/IMAGE404.png" alt="error" />
         <img
-          src="frontend/src/assets/téléchargement.png"
+          src="public/téléchargement.png"
           alt="le pere noel n'existe pas"
           className="imgSurprise"
         />
