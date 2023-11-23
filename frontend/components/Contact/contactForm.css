@@ -8,15 +8,14 @@ body {
 
 .contactCard {
   background: rgb(36, 96, 0);
-  width: 150%;
+  width: 100%;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   grid-template-columns: 1fr;
-  margin-top: 40%;
+  margin-top: 20%;
   color: #daa520;
-  margin-left: -20%;
 }
 
 .contactCard h1 {
