@@ -1,34 +1,36 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-
-import App from "./App.jsx";
-import "./index.css";
-import Home from "../pages/Home.jsx";
-import About from "../pages/About.jsx";
-
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import axios from "axios";
+import App from "./App.jsx";
+// import "./index.css";
+// import Calendrier from "../components/Calendrier/Calendrier.jsx";
+// import Contact from "../pages/Contact.jsx";
+// import Surprise from "../pages/Surprise.jsx";
+import TicTacToh from "../pages/TicTacToh.jsx";
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
+      // {
+      //   path: "/",
+      //   element: <Calendrier />,
+      // },
+      // {
+      //   path: "/contact",
+      //   element: <Contact />,
+      // },
       {
-        path: "/",
-        element: <Home />,
-        loader: async () => {
-          return await axios
-            .get("http://localhost:3000/users")
-            .then((res) => res.data);
-        },
-      },
-      {
-        path: "/about",
-        element: <About />,
+        path: "/TicTacToh",
+        element: <TicTacToh />,
       },
     ],
   },
+  // {
+  //   path: "*",
+  //   element: <Surprise />,
+  // },
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
