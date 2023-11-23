@@ -9,6 +9,7 @@ const dataCadeaux = [
         title: "Bravo tu as gagné la biche de noël!",
         urlImg: "./public/beauty.png",
     }
+    
 ]
 
 export default dataCadeaux;

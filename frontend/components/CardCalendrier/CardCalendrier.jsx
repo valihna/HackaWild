@@ -1,4 +1,4 @@
-import "./CardCalendrier.css"
+import "./CardCalendrier.css";
 
 function CardCalendrier({urlImg, title, fermer}){
     return <div className="cadeau">

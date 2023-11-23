@@ -1,9 +1,8 @@
-* {
+.surprise {
   background-image: url(frontend/src/assets/imageSurprise.jpg);
   background-size: 100%;
   background-attachment: fixed;
   margin: 0;
-  padding: O;
 }
 
 .containerSurprise {
