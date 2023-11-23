@@ -1,5 +1,7 @@
+import FormulaireContact from "../components/Contact/FormulaireContact";
+
 function Contact() {
-  return <h1>Bienvenu sur la messagerie du Père Noël</h1>;
+  return <FormulaireContact />;
 }
 
 export default Contact;

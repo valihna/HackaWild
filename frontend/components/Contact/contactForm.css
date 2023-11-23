@@ -1,0 +1,24 @@
+body {
+  background-image: url(../../assets/christmas-background-2.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactCard {
+  background: rgb(36, 96, 0);
+  background: radial-gradient(
+    circle,
+    rgba(36, 96, 0, 0.7707457983193278) 100%,
+    rgba(254, 254, 254, 1) 100%
+  );
+  margin-top: 40%;
+}
+
+.contactCard h1 {
+  font-size: 1.5rem;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
