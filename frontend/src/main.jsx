@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import App from "./App.jsx";
-import TicTacToh from "../pages/TicTacToh.jsx";
+import Morpion from "../pages/Morpion.jsx";
 
 import "./index.css";
 import Calendrier from "../components/Calendrier/Calendrier.jsx";
@@ -15,8 +15,8 @@ const router = createBrowserRouter([
     element: <App />,
     children: [
       {
-        path: "/TicTacToh",
-        element: <TicTacToh />,
+        path: "/Morpion",
+        element: <Morpion />,
       },
       {
         path: "/",
