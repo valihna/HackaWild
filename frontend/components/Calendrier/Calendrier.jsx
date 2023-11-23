@@ -4,39 +4,89 @@ function Calendrier() {
     <div className="calender-all-container">
       <div className="calender-container">
         <div className="first-row">
-          <div className="case">1</div>
-          <div className="case">2</div>
-          <div className="case">3</div>
-          <div className="case">4</div>
-          <div className="case">5</div>
+          <div className="case">
+            <p className="numbers-calendrier">1</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">2</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">3</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">4</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">5</p>
+          </div>
         </div>
         <div className="second-row">
-          <div className="case">6</div>
-          <div className="case">7</div>
-          <div className="case">8</div>
-          <div className="case">9</div>
-          <div className="case">10</div>
+          <div className="case">
+            <p className="numbers-calendrier">6</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">7</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">8</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">9</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">10</p>
+          </div>
         </div>
         <div className="third-row">
-          <div className="case">11</div>
-          <div className="case">12</div>
-          <div className="case">13</div>
-          <div className="case">14</div>
-          <div className="case">15</div>
+          <div className="case">
+            <p className="numbers-calendrier">11</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">12</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">13</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">14</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">15</p>
+          </div>
         </div>
         <div className="fourth-row">
-          <div className="case">16</div>
-          <div className="case">17</div>
-          <div className="case">18</div>
-          <div className="case">19</div>
-          <div className="case">20</div>
+          <div className="case">
+            <p className="numbers-calendrier">16</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">17</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">18</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">19</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">20</p>
+          </div>
         </div>
         <div className="fivth-row">
-          <div className="case">21</div>
-          <div className="case">22</div>
-          <div className="case">23</div>
-          <div className="case">24</div>
-          <div className="case">25</div>
+          <div className="case">
+            <p className="numbers-calendrier">21</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">22</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">23</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">24</p>
+          </div>
+          <div className="case">
+            <p className="numbers-calendrier">25</p>
+          </div>
         </div>
       </div>
     </div>

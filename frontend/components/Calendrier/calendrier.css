@@ -1,22 +1,38 @@
-.case {
-  width: 100px;
-  height: 100px;
-  background: red;
-  margin: 10px;
+.calender-container {
+  margin-top: 50px;
 }
 
+.case {
+  width: 125px;
+  height: 120px;
+  border: 5px solid #ead10f;
+  background: none;
+  margin: 5px;
+}
+
+.numbers-calendrier {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .first-row {
   display: flex;
+  justify-content: center;
 }
 .second-row {
   display: flex;
+  justify-content: center;
 }
 .third-row {
   display: flex;
+  justify-content: center;
 }
 .fourth-row {
   display: flex;
+  justify-content: center;
 }
 .fivth-row {
   display: flex;
+  justify-content: center;
 }
