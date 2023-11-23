@@ -8,15 +8,14 @@ body {
 
 .contactCard {
   background: rgb(36, 96, 0);
-  width: 150%;
+  width: 100%;
   border-radius: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
   grid-template-columns: 1fr;
-  margin-top: 40%;
+  margin-top: 20%;
   color: #daa520;
-  margin-left: -20%;
 }
 
 .contactCard h1 {
@@ -49,11 +48,12 @@ body {
 }
 
 .secondQuestion input {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .contactForm span {
   margin-right: 1rem;
+  color: #daa520;
 }
 
 .submit {
@@ -74,6 +74,7 @@ body {
   font-weight: bold;
   padding-right: 5px;
   cursor: pointer;
+  color: #daa520;
 }
 
 .textArea {

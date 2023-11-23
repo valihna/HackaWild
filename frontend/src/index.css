@@ -3,4 +3,5 @@ body{
     background-position: contain;
     background-size: 100%;
     background-attachment: fixed;
+    margin: 0;
 }

@@ -1,4 +1,15 @@
+@keyframes myAnim {
+	0% {
+		transform: scale(0);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
 .cadeau{
+    animation: myAnim 1s ease 0s 1 normal forwards;
     position: absolute;
     top: 15%;
     left: 37%;
@@ -6,9 +17,6 @@
     border-radius: 10px;
     padding: 10px;
     text-align: center;
-}
-
-.cadeau{
     background-color: goldenrod;
 }
 
