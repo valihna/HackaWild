@@ -7,7 +7,6 @@ import Home from "../pages/Home.jsx";
 import About from "../pages/About.jsx";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import axios from "axios";
 
 const router = createBrowserRouter([
   {
@@ -17,11 +16,6 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home />,
-        loader: async () => {
-          return await axios
-            .get("http://localhost:3000/users")
-            .then((res) => res.data);
-        },
       },
       {
         path: "/about",

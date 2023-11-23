@@ -1,0 +1,22 @@
+.case {
+  width: 100px;
+  height: 100px;
+  background: red;
+  margin: 10px;
+}
+
+.first-row {
+  display: flex;
+}
+.second-row {
+  display: flex;
+}
+.third-row {
+  display: flex;
+}
+.fourth-row {
+  display: flex;
+}
+.fivth-row {
+  display: flex;
+}
