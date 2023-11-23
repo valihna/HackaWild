@@ -1,0 +1,87 @@
+body {
+  background-image: url(../../assets/christmas-background-2.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+}
+
+.contactCard {
+  background: rgb(36, 96, 0);
+  width: 150%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  grid-template-columns: 1fr;
+  margin-top: 40%;
+  color: #daa520;
+  margin-left: -20%;
+}
+
+.contactCard h1 {
+  font-size: 2rem;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.contactForm {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-left: 10px;
+  gap: 40px;
+}
+
+.firstQuestion input {
+  width: 60%;
+  height: 1.5rem;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.secondQuestion input {
+  margin-top: 20px;
+}
+
+.contactForm span {
+  margin-right: 1rem;
+}
+
+.submit {
+  display: flex;
+  margin-left: 38%;
+  width: 120px;
+  height: 25px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  justify-content: center;
+}
+
+.submitButton {
+  background: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  padding-right: 5px;
+  cursor: pointer;
+}
+
+.textArea {
+  resize: none;
+  width: 60%;
+  height: 82px;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 20px;
+  border-radius: 5px;
+}

@@ -1,0 +1,18 @@
+import "../../components/Surprise/Surprise.css";
+
+function SurpriseCom() {
+  return (
+    <div>
+      <div className="containerSurprise">
+        <img src="frontend/src/assets/IMAGE404.png" alt="error" />
+        <img
+          src="frontend/src/assets/téléchargement.png"
+          alt="le pere noel n'existe pas"
+          className="imgSurprise"
+        />
+      </div>
+    </div>
+  );
+}
+
+export default SurpriseCom;

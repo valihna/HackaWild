@@ -1,22 +1,72 @@
-.case {
-  width: 100px;
-  height: 100px;
-  background: red;
-  margin: 10px;
+/* Animation property */
+.case:hover {
+  animation: wiggle 2s linear infinite;
 }
 
+/* Keyframes */
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+.calender-container {
+  margin-top: 50px;
+}
+
+.case {
+  width: 125px;
+  height: 120px;
+  border: 5px solid #ead10f;
+  background: none;
+  margin: 5px;
+  color: white;
+  border-radius: 10px;
+  box-shadow: -5px 5px 5px black;
+}
+
+.numbers-calendrier {
+  font-size: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .first-row {
   display: flex;
+  justify-content: center;
 }
 .second-row {
   display: flex;
+  justify-content: center;
 }
 .third-row {
   display: flex;
+  justify-content: center;
 }
 .fourth-row {
   display: flex;
+  justify-content: center;
 }
 .fivth-row {
   display: flex;
+  justify-content: center;
 }
+
