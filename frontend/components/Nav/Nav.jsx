@@ -10,9 +10,6 @@ function Nav() {
         <Link to="/Contact">
           <li>Messagerie du Père Noël</li>
         </Link>
-        <Link to="/Surprise">
-          <li>Surprise</li>
-        </Link>
       </ul>
     </nav>
   );
