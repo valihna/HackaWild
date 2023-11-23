@@ -1,0 +1,7 @@
+body{
+    background-image: url("../../public/christmas-background-2.jpg");
+    background-position: contain;
+    background-size: 100%;
+    background-attachment: fixed;
+    margin: 0;
+}

@@ -1,0 +1,21 @@
+.surprise {
+  background-image: url(public/imageSurprise.jpg);
+  background-size: 100%;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+.containerSurprise {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+.imgSurprise {
+  width: 500px;
+}
