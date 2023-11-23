@@ -48,11 +48,12 @@ body {
 }
 
 .secondQuestion input {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .contactForm span {
   margin-right: 1rem;
+  color: #daa520;
 }
 
 .submit {
@@ -73,6 +74,7 @@ body {
   font-weight: bold;
   padding-right: 5px;
   cursor: pointer;
+  color: #daa520;
 }
 
 .textArea {
