@@ -1,27 +1,18 @@
-<<<<<<< HEAD
-/* * {
+/* {
   background-image: url(frontend/src/assets/imageSurprise.jpg);
-=======
-.surprise {
-  background-image: url(public/imageSurprise.jpg);
->>>>>>> 8485bddcb17696aa999f14b25f7e9b36c36e6940
   background-size: 100%;
   background-attachment: fixed;
   margin: 0;
   padding: O;
-} */
+}  */
 
 .containerSurprise {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  width: 100%;
 }
 
 .imgSurprise {
-  width: 500px;
+  width: 800px;
 }
