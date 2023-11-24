@@ -1,4 +1,3 @@
-import React from "react";
 import "../../components/Surprise/Surprise.css";
 
 function SurpriseCom() {
