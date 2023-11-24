@@ -9,22 +9,23 @@ import Calendrier from "../components/Calendrier/Calendrier.jsx";
 import Contact from "../pages/Contact.jsx";
 import Surprise from "../pages/Surprise.jsx";
 
+
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,
     children: [
       {
-        path: "/Morpion",
-        element: <Morpion />,
+        path: "/",
+        element: <Contact />,
       },
       {
-        path: "/",
+        path: "/calendrier",
         element: <Calendrier />,
       },
       {
-        path: "/contact",
-        element: <Contact />,
+        path: "/morpion",
+        element: <Morpion />,
       },
       {
         path: "*",

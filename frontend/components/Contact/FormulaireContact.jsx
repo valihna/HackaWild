@@ -1,10 +1,15 @@
 /* eslint-disable react/no-unescaped-entities */
-import { useState } from "react";
+import { useState, useContext } from "react";
+import CalendrierContext from "../../src/context/calendrierContext";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import "./contactForm.css";
 
 function FormulaireContact() {
+
+  const {sageOuPas, setSageOuPas} = useContext(CalendrierContext);
+  console.log(sageOuPas);
+
   const [formValue, setFormValue] = useState({
     name: "",
     question: "",
@@ -19,11 +24,13 @@ function FormulaireContact() {
 
   const toastQuestion = () => {
     if (question === "oui") {
-      toast.success("Tu as été sage, tu seras gâté pour Noël !", {
+      setSageOuPas("oui");
+      toast.success("Tu as été sage, tu peux choisir un cadeau dans le calendrier !", {
         position: toast.POSITION.TOP_RIGHT,
       });
     } else {
-      toast.error("Tu n'as pas été sage, le Père Noël s'en souviendra !", {
+      setSageOuPas("non");
+      toast.error("Tu n'as pas été sage, tu dois me battre au morpion si tu veux un cadeau !", {
         position: toast.POSITION.TOP_RIGHT,
       });
     }
