@@ -1,19 +1,24 @@
 import { Link } from "react-router-dom";
+import { useContext } from "react";
+import CalendrierContext from "../../src/context/calendrierContext";
 import "./Nav.css";
 
+
 function Nav() {
+  const {sageOuPas} = useContext(CalendrierContext);
+
   return (
     <nav>
       <ul>
-        <Link to="/">
+        {sageOuPas === "oui" && <Link to="/calendrier" >
           <li>Calendrier</li>
-        </Link>
-        <Link to="/Contact">
+        </Link>}
+        <Link to="/">
           <li>Messagerie du Père Noël</li>
         </Link>
-        <Link to="/Morpion">
+        {sageOuPas === "non" && <Link to="/morpion">
           <li>Jeu</li>
-        </Link>
+        </Link>}
       </ul>
     </nav>
   );
