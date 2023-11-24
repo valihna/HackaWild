@@ -5,7 +5,8 @@
 
 /* Keyframes */
 @keyframes wiggle {
-  0%, 7% {
+  0%,
+  7% {
     transform: rotateZ(0);
   }
   15% {
@@ -23,7 +24,8 @@
   35% {
     transform: rotateZ(-4deg);
   }
-  40%, 100% {
+  40%,
+  100% {
     transform: rotateZ(0);
   }
 }
@@ -41,6 +43,8 @@
   color: white;
   border-radius: 10px;
   box-shadow: -5px 5px 5px black;
+  font-size: 3rem;
+  color: rgb(255, 235, 85);
 }
 
 .numbers-calendrier {
@@ -69,4 +73,3 @@
   display: flex;
   justify-content: center;
 }
-

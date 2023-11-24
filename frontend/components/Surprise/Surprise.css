@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 /* * {
   background-image: url(frontend/src/assets/imageSurprise.jpg);
+=======
+.surprise {
+  background-image: url(public/imageSurprise.jpg);
+>>>>>>> 8485bddcb17696aa999f14b25f7e9b36c36e6940
   background-size: 100%;
   background-attachment: fixed;
   margin: 0;
@@ -18,5 +23,5 @@
 }
 
 .imgSurprise {
-  width: 60%;
+  width: 500px;
 }
