@@ -1,9 +1,9 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import PropTypes from "prop-types";
 import "./Morpion.css";
 
 const calculateWinner = (carres) => {
-  const lines = [
+  const lignes = [
     [0, 1, 2],
     [3, 4, 5],
     [6, 7, 8],
@@ -14,8 +14,8 @@ const calculateWinner = (carres) => {
     [2, 4, 6],
   ];
 
-  for (let i = 0; i < lines.length; i++) {
-    const [a, b, c] = lines[i];
+  for (let i = 0; i < lignes.length; i++) {
+    const [a, b, c] = lignes[i];
     if (carres[a] && carres[a] === carres[b] && carres[a] === carres[c]) {
       return carres[a];
     }
@@ -51,6 +51,22 @@ const Consignes = () => {
     setXSuivant(!xSuivant);
   };
 
+  const jeuPereNoel = () => {
+    if (!xSuivant) {
+      // Math.random() MDN webDoc
+      let mathRandom;
+      do {
+        mathRandom = Math.floor(Math.random() * 9);
+      } while (carres[mathRandom] !== null);
+      // MDN Math.floor(x) renvoie le plus grand entier qui est inférieur ou égal à un nombre x.
+      handleClick(mathRandom);
+    }
+  };
+
+  useEffect(() => {
+    jeuPereNoel();
+  }, [carres, xSuivant]);
+  // Voir doc MDN
   const leCarre = (i) => (
     <Carre value={carres[i]} onClick={() => handleClick(i)} />
   );
@@ -59,7 +75,7 @@ const Consignes = () => {
   const status = winner
     ? `Winner: ${winner}`
     : `Next player: ${xSuivant ? "X" : "O"}`;
-
+  // voir cours openClassroom (debut de jeu react)
   return (
     <div>
       <div className="status">{status}</div>
