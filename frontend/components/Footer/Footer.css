@@ -2,7 +2,9 @@
   list-style-type: none;
   color: white;
   margin-right: 90px;
-  font-size: 30px;
+  font-size: 45px;
   font-weight: bold;
-  position: fixed bottom;
+  position: absolute;
+  bottom: 0px;
+  left: 35px;
 }
