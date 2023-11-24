@@ -4,4 +4,6 @@
   margin-right: 90px;
   font-size: 30px;
   font-weight: bold;
+  position: absolute;
+  bottom: 35px;
 }

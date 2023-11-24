@@ -57,7 +57,7 @@ const Consignes = () => {
 
   const winner = calculateWinner(carres);
   const status = winner
-    ? `Winner: ${winner}`
+    ? `Bravo ,tu peux aller sur la messagerie du père Noël !`
     : `Next player: ${xSuivant ? "X" : "O"}`;
 
   return (

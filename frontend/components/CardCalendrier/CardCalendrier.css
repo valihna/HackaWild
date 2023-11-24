@@ -1,28 +1,38 @@
 @keyframes myAnim {
-	0% {
-		transform: scale(0);
-	}
+  0% {
+    transform: scale(0);
+  }
 
-	100% {
-		transform: scale(1);
-	}
+  100% {
+    transform: scale(1);
+  }
 }
 
-.cadeau{
-    animation: myAnim 1s ease 0s 1 normal forwards;
-    position: absolute;
-    top: 15%;
-    left: 37%;
-    color:white;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: center;
-    background-color: goldenrod;
+.cadeau {
+  animation: myAnim 1s ease 0s 1 normal forwards;
+  position: absolute;
+  top: 15%;
+  left: 37%;
+  color: white;
+  border-radius: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: goldenrod;
 }
 
-
-span{
-    color: black;
-    font-weight: bold;
-    font-size: 20px;
+span {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+.header-container {
+  display: flex;
+}
+.croos-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+  border-radius: 50px;
+  cursor: pointer;
 }
