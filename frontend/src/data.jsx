@@ -2,7 +2,7 @@ const dataCadeaux = [
   {
     id: 1,
     title: "Bravo tu as gagné le chat sorcier!",
-    urlImg: "./public/images-1.jpg",
+    urlImg: "./public/chatSorcier.png",
   },
   {
     id: 2,
@@ -27,12 +27,12 @@ const dataCadeaux = [
   {
     id: 6,
     title: "Bravo tu as gagné!",
-    urlImg: "./public/COUV-ARTICLES-1920x1080-64-1024x576.jpg",
+    urlImg: "./public/papa-cerf.png",
   },
   {
     id: 7,
-    title: "Bravo tu as gagné!",
-    urlImg: "./public/christmas-background.webp",
+    title: "VIDE, comme ton portefeuille",
+    urlImg: "./public/cadeau-removebg-preview.webp",
   },
   {
     id: 8,
@@ -42,7 +42,7 @@ const dataCadeaux = [
   {
     id: 9,
     title: "Bravo tu as gagné!",
-    urlImg: "./public/chatSorcier.png",
+    urlImg: "./public/chatNoel.webp",
   },
   {
     id: 10,
@@ -67,47 +67,63 @@ const dataCadeaux = [
   {
     id: 14,
     title: "Bravo tu as gagné!",
-    urlImg: "./public/Capture d’écran 2023-11-23 à 11.33.43.png",
+    urlImg: "./public/gifchats.gif",
   },
   {
     id: 15,
     title: "Bravo tu as gagné!",
-    urlImg: "./public/Capture d’écran 2023-11-23 à 11.30.41.png",
+    urlImg: "./public/gifNoel-cheval-giff.gif",
   },
   {
     id: 16,
     title: "Bravo tu as gagné!",
-    urlImg: "./public/beauty.png",
+    urlImg: "./public/irritable-pn.jpg",
   },
   {
     id: 17,
     title: "Bravo tu as gagné!",
-    urlImg: "./public/back-red-Christmas.jpg",
+    urlImg: "./public/gifvache.gif",
   },
   {
     id: 18,
+    title: "La fameuse médaille des travailleurs :)",
+    urlImg:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRs21Gk6cEzo3-E9piHh2xmSAhSux348gxgog&usqp=CAU",
+  },
+  {
+    id: 19,
+    title: "Bravo tu as gagné!",
+    urlImg: "./public/alcolique-pn.gif",
+  },
+  {
+    id: 20,
+    title: "Bravo tu as gagné!",
+    urlImg: "./public/gifnoel-texte53.gif",
+  },
+  {
+    id: 21,
+    title: "Bravo tu as gagné!",
+    urlImg: "./public/chien.webp",
+  },
+  {
+    id: 22,
     title: "Bravo tu as gagné!",
     urlImg: "./public/360_F_175994457_9HLmhvBVEEbmGZAYomaIHCUeQ2909Yv9.jpg",
   },
   {
-    id: 18,
+    id: 23,
     title: "Bravo tu as gagné!",
-    urlImg: "./public/360_F_175994457_9HLmhvBVEEbmGZAYomaIHCUeQ2909Yv9.jpg",
+    urlImg: "./public/gifnyan-cat.gif",
   },
   {
-    id: 18,
+    id: 24,
     title: "Bravo tu as gagné!",
-    urlImg: "./public/360_F_175994457_9HLmhvBVEEbmGZAYomaIHCUeQ2909Yv9.jpg",
+    urlImg: "./public/vache-de-noel.webp",
   },
   {
-    id: 18,
+    id: 25,
     title: "Bravo tu as gagné!",
-    urlImg: "./public/360_F_175994457_9HLmhvBVEEbmGZAYomaIHCUeQ2909Yv9.jpg",
-  },
-  {
-    id: 18,
-    title: "Bravo tu as gagné!",
-    urlImg: "./public/360_F_175994457_9HLmhvBVEEbmGZAYomaIHCUeQ2909Yv9.jpg",
+    urlImg: "./public/minionNoel.png",
   },
 ];
 
